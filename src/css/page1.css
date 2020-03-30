@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  height: 200px;
+  min-width: 1200px;
+  background-color: #F5F5F5;
+}
+
+.contance {
+  min-width: 1200px;
+  height: 764px;
+  background-color: #F5F5F5;
+}
+
+.produce {
+  width: 1200px;
+  height: 764px;
+  margin: 0 auto;
+}
+.produce ul {
+  width: 1210px;
+}
+.produce ul li {
+  list-style: none;
+  float: left;
+  width: 200px;
+  height: 352px;
+  background-color: #fff;
+  padding: 0 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.produce ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+.produce ul li img {
+  vertical-align: top;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  margin-top: 20px;
+}
+.produce ul li .p_name {
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  margin: 8px 0;
+}
+.produce ul li .p_price {
+  margin-bottom: 8px;
+  font: 18px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  color: #ca141d;
+}
+.produce ul li .p_comment {
+  color: #999;
+  font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+/*# sourceMappingURL=page1.css.map */

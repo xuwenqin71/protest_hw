@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.top_banner {
+  min-width: 1200px;
+  background-color: #3a3a3a;
+}
+.top_banner .pic {
+  height: 90px;
+}
+.top_banner .pic .top_banner_new {
+  position: relative;
+}
+.top_banner .pic .top_banner_new .a1 {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+.top_banner .pic .top_banner_new .a1 img {
+  display: block;
+  text-align: center;
+  position: relative;
+  width: 1920px;
+  left: 50%;
+  margin-left: -960px;
+  vertical-align: top;
+}
+.top_banner .pic .top_banner_new .close {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  border-radius: 5px;
+  color: #FFF;
+  background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon01.svg) no-repeat;
+  background-position: -323px -84px;
+  top: 10px;
+  right: 20px;
+}
+
+.header {
+  min-width: 1200px;
+}
+.header .layout {
+  width: 1200px;
+  margin: 0 auto;
+  font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+.header .layout .s-sub {
+  float: left;
+  line-height: 36px;
+}
+.header .layout .s-sub ul {
+  list-style: none;
+}
+.header .layout .s-sub ul li {
+  float: left;
+  position: relative;
+  padding: 0 8px;
+}
+.header .layout .s-sub ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+.header .layout .s-sub ul li:nth-child(1) ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  right: -1px;
+}
+.header .layout .s-sub ul li:nth-child(2) ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  right: -1px;
+}
+.header .layout .s-sub ul li:nth-child(3) ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  right: -1px;
+}
+.header .layout .s-sub ul li:nth-child(4) ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  right: -1px;
+}
+.header .layout .s-sub ul li:nth-child(5) ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  right: -1px;
+}
+.header .layout .s-sub ul li:nth-child(6) ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  right: -1px;
+}
+.header .layout .s-sub ul li:nth-child(7) ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  right: -1px;
+}
+.header .layout .s-main {
+  float: right;
+  line-height: 36px;
+}
+.header .layout .s-main ul {
+  list-style: none;
+}
+.header .layout .s-main ul li {
+  float: left;
+  position: relative;
+  padding: 0 8px;
+}
+.header .layout .s-main ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+.header .layout .s-main ul li a i {
+  display: block;
+  float: right;
+  width: 14px;
+  height: 14px;
+  margin-top: 11px;
+  margin-left: 3px;
+  background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon-commonnew.svg) no-repeat -70px 0;
+}
+.header .layout .s-main ul li:nth-child(2) ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  left: -1px;
+}
+.header .layout .s-main ul li:nth-child(3) ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  left: -1px;
+}
+.header .layout .s-main ul li:nth-child(4) ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  left: -1px;
+}
+.header .layout .s-main ul li:nth-child(5) ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  left: -1px;
+}
+.header .layout .s-main ul li:nth-child(6) ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  left: -1px;
+}
+.header .layout .s-main ul li:nth-child(7) ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+  top: 13px;
+  left: -1px;
+}
+
+.top {
+  height: 36px;
+  background-color: #3a3a3a;
+}
+
+.buttom {
+  height: 47px;
+  padding: 18px 0 15px 0;
+}
+
+#h {
+  width: 69px;
+  position: relative;
+}
+#h a {
+  position: relative;
+  padding-right: 15px;
+}
+#h a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  text-align: center;
+  background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon-commonnew.svg) no-repeat -71px 0;
+  right: -6px;
+  top: 0px;
+}
+
+.header .layout .more {
+  position: absolute;
+  display: none;
+  width: 120px;
+  right: 0px;
+}
+.header .layout .more:after {
+  content: "";
+  display: none !important;
+}
+.header .layout .more ul:after {
+  content: "";
+  display: none !important;
+}
+.header .layout .more ul li {
+  float: none;
+  text-align: center;
+}
+.header .layout .more ul li:after {
+  content: "";
+  display: none;
+}
+
+.last:hover {
+  background-color: #FFF;
+}
+.last:hover .more {
+  display: block;
+}
+
+.nav {
+  height: 550px;
+  min-width: 1200px;
+}
+
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.menu {
+  width: 710px;
+  height: 440px;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow: hidden;
+}
+.menu ul {
+  position: relative;
+  list-style: none;
+  width: 200px;
+  height: 440px;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.menu ul li {
+  font: 16px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+.menu ul li .list {
+  position: relative;
+  padding-left: 16px;
+}
+.menu ul li .list a {
+  line-height: 44px;
+  color: #848484;
+}
+.menu ul li .list i:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 16px;
+  top: 12px;
+  background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon01.svg) no-repeat;
+  background-position: -363px 0;
+}
+.menu ul li.active {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.cartlist {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 200px;
+  min-width: 484px;
+  padding: 20px 0 0 32px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.cartlist ul {
+  height: 420px;
+  width: 230px;
+  float: left;
+  box-shadow: none;
+  background: #fff;
+  margin-right: 10px;
+}
+.cartlist .subcate-item {
+  padding-left: 0;
+  padding-bottom: 25px;
+}
+.cartlist .subcate-item a {
+  display: block;
+  width: 230px;
+  height: 48px;
+  border-radius: 10px;
+  position: relative;
+  padding: 6px 0;
+}
+.cartlist .subcate-item a:hover {
+  background-color: #ccc;
+}
+.cartlist .subcate-item a img {
+  vertical-align: middle;
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin: 0 8px 0 12px;
+}
+.cartlist .subcate-item a p {
+  float: left;
+  width: 150px;
+  vertical-align: middle;
+}
+.cartlist .subcate-item a p span {
+  font: 14px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+.cartlist .subcate-btn {
+  padding-left: 0;
+  padding-bottom: 25px;
+}
+.cartlist .subcate-btn a {
+  width: 112px;
+  height: 42px;
+  line-height: 42px;
+  margin-top: 8px;
+  margin-left: 34px;
+  border: 1px solid #f2f2f2;
+  border-radius: 0 22px 22px 0;
+  font-size: 13px;
+  color: #999;
+  display: block;
+  position: relative;
+  text-indent: 34px;
+}
+.cartlist .subcate-btn a:before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  background: #fff;
+  border: 1px solid #f2f2f2;
+  display: block;
+  border-radius: 22px;
+  position: absolute;
+  top: -1px;
+  left: -22px;
+}
+.cartlist .subcate-btn a:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #c0c0c0;
+  position: absolute;
+  top: 16px;
+  left: -1px;
+}
+
+/*# sourceMappingURL=index.css.map */

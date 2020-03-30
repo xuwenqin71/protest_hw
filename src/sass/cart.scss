@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #111;
+}
+$font-famliy:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+.header{
+    height: 100px;
+    min-width: 1200px;
+    background-color: #ff0000;
+}
+.contance{
+    min-width: 1200px;
+    height: 100%;
+    
+}
+.list{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+@mixin goods {
+    .checkbox{
+        float: left;
+        width: 150px;
+        line-height: 40px;
+        input{
+            width: 14px;
+            height: 14px;
+            margin-right: 10px;
+            line-height: 40px;
+            outline:0px; 
+            background: url("https://res.vmallres.com/20200313/staticpc/img/icon-header.c4189e7.png") no-repeat;
+            background-position: -18px -129px;
+            border: 0;
+            cursor: pointer;
+        }
+        .checked{
+            background: url("https://res.vmallres.com/20200313/staticpc/img/icon-header.c4189e7.png") no-repeat;
+            background-position: 0 -129px;
+        }
+    }
+    ul{
+        line-height: 40px;
+        list-style: none;
+        float: left;
+        li{
+            float: left;
+            width: 100px;
+            margin-left: 30px;
+            min-height: 14px;
+            text-align: center;
+            &:first-child{
+                width: 450px;
+                text-align: left;
+                margin-left: 0;
+            }
+        }
+    }
+}
+.title{
+    height: 40px;
+    padding-left: 40px;
+    color: #a4a4a4;
+    background-color: #fff;
+    font:14px/1.5 $font-famliy;
+    @include goods;
+}
+.moban{
+    padding-left: 40px;
+    height: 200px;
+    margin-top: 10px;
+    background-color: #fff;
+    @include goods;
+    .checkbox input{
+        margin-top: 43px;
+    }
+    .p-img{
+        width: 100px;
+        height: 100px;
+        vertical-align: top;
+    }
+}
+

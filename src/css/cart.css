@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+}
+
+.header {
+  height: 100px;
+  min-width: 1200px;
+  background-color: #ff0000;
+}
+
+.contance {
+  min-width: 1200px;
+  height: 100%;
+}
+
+.list {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.title {
+  height: 40px;
+  padding-left: 40px;
+  color: #a4a4a4;
+  background-color: #fff;
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+.title .checkbox {
+  float: left;
+  width: 150px;
+  line-height: 40px;
+}
+.title .checkbox input {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  line-height: 40px;
+  outline: 0px;
+  background: url("https://res.vmallres.com/20200313/staticpc/img/icon-header.c4189e7.png") no-repeat;
+  background-position: -18px -129px;
+  border: 0;
+  cursor: pointer;
+}
+.title .checkbox .checked {
+  background: url("https://res.vmallres.com/20200313/staticpc/img/icon-header.c4189e7.png") no-repeat;
+  background-position: 0 -129px;
+}
+.title ul {
+  line-height: 40px;
+  list-style: none;
+  float: left;
+}
+.title ul li {
+  float: left;
+  width: 100px;
+  margin-left: 30px;
+  min-height: 14px;
+  text-align: center;
+}
+.title ul li:first-child {
+  width: 450px;
+  text-align: left;
+  margin-left: 0;
+}
+
+.moban {
+  padding-left: 40px;
+  height: 200px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+.moban .checkbox {
+  float: left;
+  width: 150px;
+  line-height: 40px;
+}
+.moban .checkbox input {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  line-height: 40px;
+  outline: 0px;
+  background: url("https://res.vmallres.com/20200313/staticpc/img/icon-header.c4189e7.png") no-repeat;
+  background-position: -18px -129px;
+  border: 0;
+  cursor: pointer;
+}
+.moban .checkbox .checked {
+  background: url("https://res.vmallres.com/20200313/staticpc/img/icon-header.c4189e7.png") no-repeat;
+  background-position: 0 -129px;
+}
+.moban ul {
+  line-height: 40px;
+  list-style: none;
+  float: left;
+}
+.moban ul li {
+  float: left;
+  width: 100px;
+  margin-left: 30px;
+  min-height: 14px;
+  text-align: center;
+}
+.moban ul li:first-child {
+  width: 450px;
+  text-align: left;
+  margin-left: 0;
+}
+.moban .checkbox input {
+  margin-top: 43px;
+}
+.moban .p-img {
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=cart.css.map */

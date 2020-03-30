@@ -1,0 +1,144 @@
+
+.header{
+    min-width: 1200px;  
+    .layout{
+        width: 1200px;
+        margin: 0 auto;
+        font: 12px/1.5 $font-famliy; 
+        .s-sub{
+            float: left;
+            line-height: 36px;
+           ul{
+               list-style: none;
+               li{
+                   float: left;
+                   position: relative;
+                   padding: 0 8px;
+                   a{
+                       text-decoration: none;
+                       color:#ccc;
+                       
+                   }
+                @for $i from 1 through $colums{
+                    &:nth-child(#{$i}){ 
+                        ::after{
+                            content:"";
+                            display: block;
+                            position: absolute;
+                            width: 1px;
+                            height:10px;
+                            background-color: #fff;
+                            top:13px;
+                            right: -1px;
+                        }
+                    }
+                   }
+                    
+                }
+                
+            }
+        }
+        .s-main{
+            float: right;
+            line-height: 36px;
+            ul{
+                list-style: none;
+                li{
+                    float: left;
+                    position: relative;
+                    padding: 0 8px;
+                    a{
+                        text-decoration: none;
+                        color:#ccc;
+                        i{
+                            display: block;
+                            float: right;
+                            width: 14px;
+                            height: 14px;
+                            margin-top: 11px;
+                            margin-left: 3px;
+                            background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon-commonnew.svg)no-repeat -70px 0;
+                        }
+                    }
+                    @for $i from 2 through $colums{
+                     &:nth-child(#{$i}){ 
+                         ::before{
+                             content:"";
+                             display: block;
+                             position: absolute;
+                             width: 1px;
+                             height:10px;
+                             background-color: #fff;
+                             top:13px;
+                             left: -1px;
+                         }
+                     }
+                    }
+                 }
+                 
+             }
+        }
+    }
+}
+.top{
+    height: 36px;
+    background-color: #3a3a3a;
+}
+.buttom{
+    height: 47px;
+    padding: 18px 0 15px 0;
+
+}
+#h{
+    width: 69px;
+    position: relative;
+    a{
+        position: relative;
+        padding-right: 15px;
+        &:after{
+            content:"";
+            display: block;
+            position: absolute;
+            height: 14px;
+            width: 14px;
+            text-align: center;
+            background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon-commonnew.svg)no-repeat -71px 0;
+            right: -6px;
+            top:0px;
+        }
+    }
+}
+.header .layout .more{
+    position: absolute;
+    display: none;
+    &:after{
+        content:"";
+        display: none !important;
+        } 
+    width: 120px;
+    right: 0px;
+    ul{
+        &:after{
+            content:"";
+            display: none !important;
+        } 
+        li{
+            float: none;
+            text-align: center;
+            &:after{
+                content:"";
+                display: none;
+            }
+           
+        }
+        
+    }
+}
+.last{
+    &:hover{
+        background-color: #FFF;
+        .more{
+            display: block;
+        }
+    }
+}

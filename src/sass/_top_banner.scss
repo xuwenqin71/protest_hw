@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+$colums:7;
+.top_banner{
+    min-width: 1200px;
+    background-color: #3a3a3a;
+    .pic{
+        height: 90px;
+        .top_banner_new{
+            position: relative;
+            .a1{
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                overflow: hidden;
+                img{
+                    display: block;
+                    text-align: center;
+                    
+                    position: relative;
+                    width: 1920px;
+                    left:50%;
+                    margin-left: -960px; 
+                    vertical-align: top;
+                }
+            }
+            .close{
+                position: absolute;
+                height: 24px;
+                width: 24px;
+                border-radius: 5px;
+                color: #FFF;
+                background: url(https://res8.vmallres.com/20200313/images/echannel/icon/icon01.svg)no-repeat;
+                background-position: -323px -84px;
+                top: 10px;
+                right:20px;
+            }
+        }
+    }
+   
+}
